@@ -1,0 +1,27 @@
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         function showAlert() {
+      
+         var uname = document.getElementById('uname').value;
+         var pass = document.getElementById('pass').value;
+         alert('Name: ' + uname + '\npass: ' + pass);
+    }
+    </script>
+</head>
+<body>
+    <center>
+    <form>
+        <label for 'uname'>Username</label><br>
+        <input type="text" id="uname" name="uname"><br>
+        <label for 'pass'>Password</label>
+        <input type="password" id="pass" name="pass"><br>
+        <input type="submit" id="submit" onclick="showAlert()">
+
+    </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wi/dth, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function greatest(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            var num3 = document.getElementById('num3').value;
+          
+
+            if ( num1 >= num2 && num1 >= num3){
+                alert("the greatest number is :" + num1)
+            }
+            else if ( num2 >= num1 && num2 >= num3){
+                alert("the greatest number is:" + num2)
+            }
+            else {
+                alert("the greatest number is :" + num3)
+            }
+        }
+            </script>
+</head>
+<body>
+    <form>
+        <center>
+            <label for="num1">Enter 1st Number</label>
+            <input type="number" name="num1" id="num1">
+            <label for="num2">Enter 2nd Number</label>
+            <input type="number" name="num2" id="num2">
+            <label for="num3">Enter 3rd Number</label>
+            <input type="number" id="num3" name="num3">
+            <input type="submit" onclick="greatest()"
+        </center>
+    </form>
+</body>
+</html>
