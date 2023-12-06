@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.timetable {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid #000;
+  border-radius: 50%; /* To create oval shape */
+}
+
+.timetable caption {
+  caption-side: bottom;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timetable th, .timetable td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.vertical-lunch {
+  writing-mode: vertical-rl; /* Display lunch vertically */
+  text-orientation: upright;
+}
+
+.physics {
+  background-color: #ffcc00; /* Set background colors for subjects */
+}
+
+.maths {
+  background-color: #66ccff; /* Set background colors for subjects */
+}
+
+.iot {
+  background-color: #c9ff66; /* Set background colors for subjects */
+}
+.web_lab {
+  background-color: #6b66ff; /* Set background colors for subjects */
+}
+.py_lab {
+  background-color: #66ff6e; /* Set background colors for subjects */
+}
+.physics_lab {
+  background-color: #918713; /* Set background colors for subjects */
+}
+.eng {
+  background-color: #cc4d4d; /* Set background colors for subjects */
+}
+.na {
+  background-color: #fff9f9; /* Set background colors for subjects */
+}
+.py {
+  background-color: #66ff6e; /* Set background colors for subjects */
+}
+.web {
+  background-color: #6b66ff; /* Set background colors for subjects */
+}
+
